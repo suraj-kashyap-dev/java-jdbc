@@ -1,11 +1,10 @@
 package dao;
 
 import db.DatabaseConnection;
-import model.User;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import model.User;
 
 public class UserDao {
     public boolean createUser(User user) {
